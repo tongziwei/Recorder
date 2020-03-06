@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Recorder</string>
+    <string name="album_ok">OK</string>
+    <string name="dialog_delete_items_title">是否删除当前录音文件?</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_delete">删除</string>
+</resources>

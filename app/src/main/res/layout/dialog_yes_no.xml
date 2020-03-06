@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    android:background="@drawable/shape_round_rec_white_7dp">
+
+      <TextView
+          android:id="@+id/tv_confirm_no_attention"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="19dp"
+          android:layout_marginTop="19dp"
+          android:textColor="#99000000"
+          android:textSize="19sp" />
+
+
+    <Button
+        android:id="@+id/btn_dialog_reset_cancel_btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_confirm_no_attention"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#FF696969"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/btn_dialog_reset_confirm_btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_confirm_no_attention"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#FFFC4C4C"
+        android:textSize="20sp" />
+
+</RelativeLayout>
